@@ -239,15 +239,15 @@ function enviarADiscordDirecto() {
   const discordPayload = {
     embeds: [
       {
-        title: `📋 Registro de Asistencia: ${grupoActual.nombre}`,
+        title: ` Registro de Asistencia: ${grupoActual.nombre}`,
         color: 3426787, // Azul iOS #34C759 / Discord
         timestamp: new Date().toISOString(),
         fields: [
-          { name: "📅 Fecha", value: fechaHoy, inline: true },
-          { name: "👥 Total Alumnos", value: `${grupoActual.estudiantes.length}`, inline: true },
-          { name: `✅ Puntuales (${puntuales.length})`, value: puntuales.join("\n") || "*Ninguno*", inline: false },
-          { name: `⚠️ Tardanzas (${tardes.length})`, value: tardes.join("\n") || "*Ninguna*", inline: false },
-          { name: `❌ Ausentes (${ausentes.length})`, value: ausentes.join("\n") || "*Ninguno*", inline: false }
+          { name: " Fecha", value: fechaHoy, inline: true },
+          { name: " Total Alumnos", value: `${grupoActual.estudiantes.length}`, inline: true },
+          { name: ` Puntuales (${puntuales.length})`, value: puntuales.join("\n") || "*Ninguno*", inline: false },
+          { name: ` Tardanzas (${tardes.length})`, value: tardes.join("\n") || "*Ninguna*", inline: false },
+          { name: ` Ausentes (${ausentes.length})`, value: ausentes.join("\n") || "*Ninguno*", inline: false }
         ],
         footer: {
           text: "Sistema de Control de Asistencia Estudiantil · Notificación Automática"

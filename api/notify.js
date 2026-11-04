@@ -19,15 +19,15 @@ export default async function handler(req, res) {
     }
 
     const embed = {
-      title: `📋 Reporte de Asistencia: ${grupoNombre || 'Grupo'}`,
+      title: ` Reporte de Asistencia: ${grupoNombre || 'Grupo'}`,
       color: 0x007AFF,
       timestamp: new Date().toISOString(),
       fields: [
-        { name: '📅 Fecha', value: fecha || new Date().toLocaleDateString('es-ES'), inline: true },
-        { name: '📊 Total Alumnos', value: `${Object.keys(asistencia || {}).length}`, inline: true },
-        { name: '✅ Puntuales (' + puntuales.length + ')', value: puntuales.join('\n') || 'Ninguno', inline: false },
-        { name: '⚠️ Tardanzas (' + tardes.length + ')', value: tardes.join('\n') || 'Ninguna', inline: false },
-        { name: '❌ Ausentes (' + ausentes.length + ')', value: ausentes.join('\n') || 'Ninguno', inline: false },
+        { name: ' Fecha', value: fecha || new Date().toLocaleDateString('es-ES'), inline: true },
+        { name: ' Total Alumnos', value: `${Object.keys(asistencia || {}).length}`, inline: true },
+        { name: ' Puntuales (' + puntuales.length + ')', value: puntuales.join('\n') || 'Ninguno', inline: false },
+        { name: ' Tardanzas (' + tardes.length + ')', value: tardes.join('\n') || 'Ninguna', inline: false },
+        { name: ' Ausentes (' + ausentes.length + ')', value: ausentes.join('\n') || 'Ninguno', inline: false },
       ],
       footer: {
         text: 'Sistema de Control de Asistencia Estudiantil',
