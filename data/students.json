@@ -1,0 +1,155 @@
+{
+  "parvularia": [
+    {
+      "id": "k1-a",
+      "nombre": "Kínder 4 - Sección A",
+      "estudiantes": [
+        "Sofía Isabel Alvarado",
+        "Mateo Alexander Benítez",
+        "Camila Victoria Castaneda",
+        "Lucas Gabriel Flores",
+        "Emma Valentina Gómez"
+      ]
+    },
+    {
+      "id": "k2-a",
+      "nombre": "Kínder 5 - Sección A",
+      "estudiantes": [
+        "Thiago Emanuel Hernández",
+        "Mia Isabella López",
+        "Benjamin Nicolas Martinez",
+        "Zoe Alessandra Morales",
+        "Ian Sebastian Navarro"
+      ]
+    }
+  ],
+  "primer_ciclo": [
+    {
+      "id": "1G-a",
+      "nombre": "1° Grado - Sección A",
+      "estudiantes": [
+        "Adrian Jose Orellana",
+        "Valeria Nicole Pineda",
+        "Daniel Eduardo Quinteros",
+        "Sara Maria Ramirez",
+        "Diego Fernando Rivas"
+      ]
+    },
+    {
+      "id": "2G-a",
+      "nombre": "2° Grado - Sección A",
+      "estudiantes": [
+        "Gabriel Antonio Sanchez",
+        "Lucia Montserrat Torres",
+        "Samuel Alejandro Vasquez",
+        "Ximena Beatriz Zabala",
+        "Carlos Mauricio Aguilar"
+      ]
+    },
+    {
+      "id": "3G-a",
+      "nombre": "3° Grado - Sección A",
+      "estudiantes": [
+        "Andrea Carolina Barahona",
+        "Fernando Jose Cruz",
+        "Mariana Elizabeth Diaz",
+        "Rodrigo Alberto Escobar",
+        "Natalia Raquel Fuentes"
+      ]
+    }
+  ],
+  "segundo_ciclo": [
+    {
+      "id": "4G-a",
+      "nombre": "4° Grado - Sección A",
+      "estudiantes": [
+        "Alejandro Javier Garcia",
+        "Paola Michelle Henriquez",
+        "Javier Andres Ibarra",
+        "Daniela Sofia Juarez",
+        "Leonardo Esteban Lara"
+      ]
+    },
+    {
+      "id": "5G-a",
+      "nombre": "5° Grado - Sección A",
+      "estudiantes": [
+        "Adriana Marcela Molina",
+        "Guillermo Enrique Nolasco",
+        "Sonia Rebecca Oliva",
+        "Oscar Wilfredo Peña",
+        "Claudia Maria Quintanilla"
+      ]
+    },
+    {
+      "id": "6G-a",
+      "nombre": "6° Grado - Sección A",
+      "estudiantes": [
+        "Hector Eduardo Reyes",
+        "Alicia Stephanie Salguero",
+        "David Ernesto Tobar",
+        "Vanessa Alejandra Urrutia",
+        "Jorge Luis Valle"
+      ]
+    }
+  ],
+  "tercer_ciclo": [
+    {
+      "id": "7G-a",
+      "nombre": "7° Grado - Sección A",
+      "estudiantes": [
+        "Christian Omar Zelaya",
+        "Monica Patricia Abrego",
+        "Raul Arturo Bermudez",
+        "Elena Maria Cisneros",
+        "Rene Alberto Delgado"
+      ]
+    },
+    {
+      "id": "8G-a",
+      "nombre": "8° Grado - Sección A",
+      "estudiantes": [
+        "Gabriela Stefany Espinoza",
+        "Mario Roberto Figueroa",
+        "Isabel Cristina Guzman",
+        "Edwin Mauricio Huezo",
+        "Diana Karen Melendez"
+      ]
+    },
+    {
+      "id": "9G-a",
+      "nombre": "9° Grado - Sección A",
+      "estudiantes": [
+        "Victor Manuel Portillo",
+        "Ingrid Vanessa Recinos",
+        "Alfonso Jose Serrano",
+        "Brenda Maria Trujillo",
+        "Ernesto Javier Ventura"
+      ]
+    }
+  ],
+  "bachillerato": [
+    {
+      "id": "1B-a",
+      "nombre": "1° Bachillerato General - A",
+      "estudiantes": [
+        "Kevin Alexis Ayala",
+        "Gisselle Maria Campos",
+        "Bryan Alexander Duran",
+        "Fatima Guadalupe Eraso",
+        "Jonathan Josue Galan"
+      ]
+    },
+    {
+      "id": "2B-a",
+      "nombre": "2° Bachillerato General - A",
+      "estudiantes": [
+        "Jacqueline Nicole Lainez",
+        "Jose Roberto Menjivar",
+        "Katia Elizabeth Palacios",
+        "Ronaldo Antonio Ramos",
+        "Wendy Stephany Zepeda"
+      ]
+    }
+  ]
+}

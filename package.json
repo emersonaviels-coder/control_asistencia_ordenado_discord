@@ -1,0 +1,9 @@
+{
+  "name": "control-asistencia-estudiantil",
+  "version": "2.0.0",
+  "description": "Sistema de Control de Asistencia f\u00e1cil y listo para Discord",
+  "main": "api/notify.js",
+  "scripts": {
+    "start": "vercel dev"
+  }
+}
